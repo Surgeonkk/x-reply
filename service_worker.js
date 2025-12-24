@@ -95,7 +95,7 @@ chrome.storage.onChanged.addListener((changes, namespace) => {
 //
 // FREE TIER: 15 requests/minute (no credit card required)
 // ============================================================
-const API_KEY = ""; // <-- PASTE YOUR API KEY HERE
+const API_KEY = "AIzaSyAlpP__GTnCiNLYRs0QB4zngdXoSsEmkTQ"; // <-- PASTE YOUR API KEY HERE
 // ============================================================
 
 const API_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
